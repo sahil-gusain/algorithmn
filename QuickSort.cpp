@@ -43,7 +43,7 @@ int main()
   {
      cin>>arr[i];
    }
-  QuickSort(arr,0,n);
+  QuickSort(arr,0,n-1);
   cout<<"sorted array is"<<endl; 
   for(int i=0;i<n;i++)
   {
