@@ -31,7 +31,7 @@ void CountSort(int arr[],int n)
 	{
 		B[i] = B[i] + B[i-1];
 	}
-      for(int i=(n-1);i!=0;i++)
+      for(int i=(n-1);i>=0;i--)
 	{
 		C[B[arr[i]]-1]=arr[i];
 		 B[arr[i]]=B[arr[i]]-1;
