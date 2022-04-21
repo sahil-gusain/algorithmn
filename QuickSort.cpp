@@ -25,7 +25,7 @@ int Partion(int A[],int low,int high)
 }
 void QuickSort(int A[],int low,int high)
 {
-  if(high<low)
+  if(low<high)
   return ;
   int index = Partion(A,low,high);
   QuickSort(A,low,index-1);
