@@ -45,8 +45,8 @@ int main()
 	vector <int> adj_list[v];
 	do{
 		cout<<"enter the source and the destination"<<endl;
-		cin>>s>>c;
-		add_edge(adj_list,s,c);
+		cin>>s>>d;
+		add_edge(adj_list,s,d);
 		cout<<"press 1 to add new edge and 0 to end "<<endl;
 		cin>>c;
 	}while(c!=0);
