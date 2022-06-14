@@ -23,8 +23,7 @@ int main()
 	int n,wt,val,w;
 	cout<<"enter the total no of element "<<endl;
 	cin>>n;
-	vector<vector<int>> item;
-	vector<vector<int>> t(n + 1,vector<int>(w + 1,-1));
+        vector<vector<int>> item;
 	for(int i=0;i<n;i++)
 	{
 		vector<int> temp;
@@ -35,5 +34,6 @@ int main()
 	}
 	cout<<"enter the maximum weight of knapsack"<<endl;
 	cin>>w;
+        vector<vector<int>> t(n + 1,vector<int>(w + 1,-1));
 	cout<<"max profit "<<knapsack(item,w,n,t);
 }
